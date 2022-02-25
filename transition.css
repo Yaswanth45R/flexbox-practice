@@ -1,0 +1,10 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  transition: all 3s 3s;
+}
+.circle:hover {
+  background-color: darkcyan;
+  border-radius: 50%;
+}

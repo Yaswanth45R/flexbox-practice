@@ -1,0 +1,45 @@
+div {
+  width: 299px;
+  height: 191px;
+  display: inline-block;
+}
+.one {
+  background-color: aquamarine;
+  border-width: 3px;
+  border-color: violet;
+  border-style: double;
+  margin: 20px 30px;
+}
+.two {
+  background-color: #ff1654;
+  border-width: 3px;
+  border-color: violet;
+  border-style: double;
+  box-sizing: border-box;
+}
+.three {
+  background-color: #004b23;
+  border: 4px dotted teal;
+  border-radius: 50%;
+}
+h1 {
+  background-color: rgb(255, 104, 167);
+  width: 100px;
+}
+section {
+  width: 100px;
+  height: 100px;
+  background-color: darkgreen;
+  border: 2px solid black;
+}
+p {
+  width: 50%;
+  height: 50%;
+  background-color: #ff1654;
+}
+button {
+  font-size: 2em;
+  background-color: #f4978e;
+  border-radius: 1em;
+  border: 2px solid #ff6b6b;
+}

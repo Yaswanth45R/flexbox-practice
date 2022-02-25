@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function greet() {
+        let name = document.querySelector("#name").value;
+        alert("Hello " + name);
+      }
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="centered">
+    <form onsubmit="greet()" return false;>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter Your Name"
+        autofocus="on"
+      />
+      <input type="submit" value="Wish Me " />
+    </form>
+    <header class="large">Harvard school</header>
+    <main class="medium">Welcome to Harvard</main>
+    <footer class="small">subjected to &copy; Haravard</footer>
+  </body>
+</html>

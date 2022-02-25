@@ -1,0 +1,28 @@
+body {
+  background-color: plum;
+}
+h1,
+h2 {
+  color: slateblue;
+}
+h2 + button {
+  background-color: tomato;
+}
+input + button,
+button + button {
+  background-color: powderblue;
+}
+
+main button:hover {
+  background-color: #14213d;
+  color: white;
+}
+button:active {
+  background-color: #ffbe0b;
+}
+.post:nth-of-type(2n) {
+  background-color: aquamarine;
+}
+h2::first-letter {
+  font-size: 50px;
+}

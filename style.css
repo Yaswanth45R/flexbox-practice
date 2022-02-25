@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(255, 240, 240);
+  color: darkslategray;
+}
+.centered {
+  text-align: center;
+}
+.large {
+  font-size: large;
+}
+.medium {
+  font-size: medium;
+}
+.small {
+  font-size: small;
+}
